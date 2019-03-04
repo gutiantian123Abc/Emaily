@@ -11,6 +11,10 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to Hi.
           </p>
+
+          <a href={"/auth/google"}>Sign In With Google</a>
+
+
           <a
             className="App-link"
             href="https://reactjs.org"
