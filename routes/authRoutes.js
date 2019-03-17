@@ -1,7 +1,6 @@
 const passport = require('passport');
 
 module.exports = app => {
-
     app.get(//Sign in
         '/auth/google',
         passport.authenticate('google', {
@@ -24,4 +23,3 @@ module.exports = app => {
         res.send(req.user);
     });
 };
-
